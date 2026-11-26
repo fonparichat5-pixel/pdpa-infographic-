@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>ก่อนกดส่งให้ AI คิดก่อน! รู้ทัน PDPA</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@400;600;800&display=swap">
+<style>
+:root{--bg:#f2f7fc;--fg:#0b1f3f;--mut:#51627d;--card:#fff;--line:#d3e0f0;--acc:#1b8ff0;--navy:#0b2a55;--warn:#e5484d;--warnbg:#fdecec;--ok:#12a36a;--okbg:#e6f7f0;color-scheme:light;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0a1424;--fg:#e8f0fb;--mut:#9db0cc;--card:#122340;--line:#223a5f;--acc:#4aa8ff;--navy:#0d3068;--warn:#ff6b70;--warnbg:#3a1b24;--ok:#3ed39a;--okbg:#103528;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#0a1424;--fg:#e8f0fb;--mut:#9db0cc;--card:#122340;--line:#223a5f;--acc:#4aa8ff;--navy:#0d3068;--warn:#ff6b70;--warnbg:#3a1b24;--ok:#3ed39a;--okbg:#103528;color-scheme:dark}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font-family:"Noto Sans Thai",system-ui,sans-serif;line-height:1.6}
+.wrap{max-width:560px;margin:0 auto;padding:0 16px 40px}
+.hero{background:linear-gradient(160deg,#0b2a55,#1b8ff0);color:#fff;padding:36px 20px 30px;border-radius:0 0 28px 28px;text-align:center;margin:0 -16px 20px}
+.hero .tag{display:inline-block;background:rgba(255,255,255,.18);padding:2px 12px;border-radius:99px;font-size:13px}
+.hero h1{font-size:30px;line-height:1.3;margin:12px 0 8px;font-weight:800}
+.hero p{margin:0;opacity:.92;font-size:15px}
+h2{font-size:21px;font-weight:800;margin:28px 0 4px}
+.sub{color:var(--mut);font-size:14px;margin:0 0 12px}
+.num{display:inline-block;background:var(--acc);color:#fff;border-radius:8px;padding:0 9px;margin-right:6px;font-size:16px}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:14px}
+.no{background:var(--warnbg);border-color:var(--warn)}
+.no .ic{font-size:26px}
+.card b{display:block;font-size:15px}
+.card span{font-size:13px;color:var(--mut)}
+.cmp{display:grid;gap:10px}
+.bad,.good{border-radius:14px;padding:12px 14px;font-size:14px}
+.bad{background:var(--warnbg);border-left:5px solid var(--warn)}
+.good{background:var(--okbg);border-left:5px solid var(--ok)}
+.bad em,.good em{font-style:normal;font-weight:800;display:block;font-size:13px}
+.bad em{color:var(--warn)}.good em{color:var(--ok)}
+.rights{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.rights div{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:10px;font-size:14px;font-weight:600}
+.rights small{display:block;font-weight:400;color:var(--mut);font-size:12px}
+.steps{counter-reset:s;list-style:none;padding:0;margin:0;display:grid;gap:10px}
+.steps li{counter-increment:s;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:12px 14px 12px 52px;position:relative;font-size:14px}
+.steps li::before{content:counter(s);position:absolute;left:12px;top:10px;width:30px;height:30px;border-radius:50%;background:var(--navy);color:#fff;display:grid;place-items:center;font-weight:800}
+.cta{background:var(--navy);color:#fff;border-radius:18px;padding:18px;text-align:center;margin-top:24px}
+.cta b{font-size:18px}
+.ref{font-size:12.5px;color:var(--mut);background:var(--card);border:1px solid var(--line);border-radius:14px;padding:12px 14px;margin-top:20px}
+.ref h3{font-size:14px;margin:0 0 4px;color:var(--fg)}
+.ref ul{margin:0;padding-left:18px}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="hero">
+<span class="tag">AI Literacy · PDPA</span>
+<h1>ก่อนกด “ส่ง” ให้ AI<br>คิดก่อน! 🛑</h1>
+<p>ข้อมูลที่พิมพ์ลงแชตบอตหรือแอปแต่งภาพ อาจไม่ได้เป็นของคุณคนเดียวอีกต่อไป</p>
+</header>
+
+<h2><span class="num">1</span>5 อย่าง ห้ามป้อนให้ AI</h2>
+<p class="sub">โดยเฉพาะแชตบอตสาธารณะและแอปแต่งภาพฟรี</p>
+<div class="grid">
+<div class="card no"><div class="ic">🪪</div><b>เลขบัตรประชาชน</b><span>รวมถึงภาพถ่ายบัตร</span></div>
+<div class="card no"><div class="ic">🎓</div><b>รหัสนิสิต + ชื่อ-สกุล</b><span>ระบุตัวตนได้ทันที</span></div>
+<div class="card no"><div class="ic">💳</div><b>ข้อมูลการเงิน</b><span>เลขบัญชี บัตร สลิป OTP</span></div>
+<div class="card no"><div class="ic">🏥</div><b>ข้อมูลสุขภาพ</b><span>ผลตรวจ ประวัติรักษา</span></div>
+<div class="card no" style="grid-column:1/-1"><div class="ic">🤳</div><b>ภาพใบหน้าตัวเองและคนอื่น</b><span>ภาพใบหน้าเป็นข้อมูลส่วนบุคคล และข้อมูลจำลองใบหน้าที่ใช้ยืนยันตัวตน จัดเป็นข้อมูลชีวภาพ (ข้อมูลอ่อนไหว ม.26)</span></div>
+</div>
+
+<h2><span class="num">2</span>ถามแบบปลอดภัย ทำยังไง?</h2>
+<p class="sub">ได้คำตอบเหมือนเดิม แต่ไม่เสี่ยงข้อมูลรั่ว</p>
+<div class="cmp">
+<div class="bad"><em>❌ เสี่ยง</em>“ช่วยแก้จดหมายสมัครงานของ นายสมชาย ใจดี รหัส 69xxxxxxx เบอร์ 08x-xxx-xxxx”</div>
+<div class="good"><em>✅ ปลอดภัย</em>“ช่วยแก้จดหมายสมัครงาน (ใช้ชื่อสมมติ [ชื่อ]) ให้สุภาพและกระชับขึ้น”</div>
+</div>
+
+<h2><span class="num">3</span>สิทธิของคุณตาม PDPA</h2>
+<p class="sub">คุณเป็นเจ้าของข้อมูล ผู้ให้บริการต้องแจ้งวัตถุประสงค์และขอความยินยอม</p>
+<div class="rights">
+<div>👁️ เข้าถึงข้อมูล<small>ขอดูและขอสำเนา</small></div>
+<div>✏️ แก้ไขข้อมูล<small>ให้ถูกต้อง เป็นปัจจุบัน</small></div>
+<div>🗑️ ลบหรือทำลาย<small>เมื่อไม่จำเป็นแล้ว</small></div>
+<div>↩️ ถอนความยินยอม<small>เมื่อไหร่ก็ได้</small></div>
+<div>✋ คัดค้านการใช้<small>การเก็บ ใช้ เปิดเผย</small></div>
+<div>⏸️ ระงับการใช้<small>ชั่วคราว</small></div>
+<div>📦 โอนย้ายข้อมูล<small>ไปยังผู้ให้บริการอื่น</small></div>
+<div>📢 ร้องเรียน<small>ผ่าน สคส.</small></div>
+</div>
+
+<h2><span class="num">4</span>4 ขั้นตอนป้องกันตัวเอง</h2>
+<p class="sub">ทำได้ทันทีในวันนี้</p>
+<ol class="steps">
+<li><b>อ่านก่อนกดยอมรับ</b><br>ดูว่าแอปขอสิทธิ์เข้าถึงอะไร (กล้อง รูปภาพ รายชื่อ) และนำข้อมูลไปทำอะไร</li>
+<li><b>ปิดการนำแชตไปพัฒนาโมเดล</b><br>ตรวจดูในหน้าตั้งค่าความเป็นส่วนตัวของแต่ละแอปว่ามีตัวเลือกนี้หรือไม่</li>
+<li><b>ปิดบังก่อนส่ง</b><br>ใช้ชื่อสมมติ ลบเลขบัตร/รหัสนิสิต/เบอร์โทร และครอปภาพให้เหลือเท่าที่จำเป็น</li>
+<li><b>ลบประวัติและขอลบข้อมูล</b><br>ลบแชตที่ไม่ใช้แล้ว และใช้สิทธิขอลบข้อมูลกับผู้ให้บริการเมื่อเลิกใช้งาน</li>
+</ol>
+
+<div class="cta"><b>🛡️ ข้อมูลของคุณ คุณเป็นคนตัดสินใจ</b><br>ถ้าสิทธิถูกละเมิด ร้องเรียนผ่าน สคส. (pdpc.or.th)</div>
+
+<div class="ref">
+<h3>แหล่งอ้างอิง</h3>
+<ul>
+<li>พระราชบัญญัติคุ้มครองข้อมูลส่วนบุคคล พ.ศ. 2562 (ประกาศในราชกิจจานุเบกษา 27 พ.ค. 2562; บังคับใช้เต็มรูปแบบ 1 มิ.ย. 2565)</li>
+<li>ฐานเศรษฐกิจดิจิทัล. (31 ม.ค. 2565). พ.ร.บ.คุ้มครองข้อมูลส่วนบุคคล ให้สิทธิเจ้าของข้อมูลทำอะไรได้บ้าง (ที่มา: กระทรวงดิจิทัลเพื่อเศรษฐกิจและสังคม). thansettakij.com/economy/512242 เข้าถึงเมื่อ 26 พ.ย. 2569</li>
+<li>ฐานเศรษฐกิจดิจิทัล. (28 ม.ค. 2565). ข้อมูลชีวภาพ ตามกฎหมาย PDPA มีอะไรบ้าง (ที่มา: กระทรวงดิจิทัลเพื่อเศรษฐกิจและสังคม). thansettakij.com/economy/511921 เข้าถึงเมื่อ 26 พ.ย. 2569</li>
+<li>สำนักงานคณะกรรมการคุ้มครองข้อมูลส่วนบุคคล (สคส.). pdpc.or.th เข้าถึงเมื่อ 26 พ.ย. 2569</li>
+</ul>
+<h3 style="margin-top:10px">การเปิดเผยการใช้ AI (AI Disclosure)</h3>
+ใช้ Claude (Anthropic) ช่วยระดมความคิด ร่างเนื้อหา ค้นแหล่งข้อมูลเบื้องต้น และเขียนโค้ดหน้าเพจ ผู้จัดทำตรวจสอบข้อเท็จจริงเทียบกับแหล่งอ้างอิงข้างต้นด้วยตนเอง ไอคอนเป็นอีโมจิ
+</div>
+</div>
+</body>
+</html>
